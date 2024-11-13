@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .parent{
+            /* background-color: gray; */
+           
+        
+            
+        }
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .navbar{
+            /* background-color: peru; */
+            height: 60px;
+            
+            display: flex;
+            flex-direction: row;
+            justify-content:space-evenly;
+            align-items:center;
+        }
+        .searchbar{
+         
+            margin-left: 40px;
+            width: 900px;
+            height: 50px;
+           display:flex;
+           flex-direction: row;
+           
+            
+    
+            /* background-color: rgb(61, 61, 162); */
+           
+            
+        }
+        .login-box{
+            
+            display: flex;
+            
+            /* background-color: rgb(75, 77, 77); */
+            
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+           height:50px;
+            width:400px;
+            
+            
+        }
+        .login:hover{
+            background-color: rgb(59, 59, 230);
+            border-radius: 2px;
+           
+            width: 80px;
+        }
+       
+        .container{
+            background-color: plum;
+            /* width: 1000px; */
+            margin-top:20px;
+            /* margin-bottom: 10px;
+            margin-left: 5px;
+            margin-right: 5px; */
+            display:flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        .item1{
+            /* background-color: orange; */
+            
+            width:40px;
+            /* font-family: inter_regular, fallback-inter_regular, Arial, sans-serif; */
+            /* font-size: 12px;
+            line-height: 16px;
+           */
+    }
+    .third-div{
+        background-color: rgb(32, 139, 139);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        /* align-content: center; */
+        margin-top: 10px;
+       
+       margin-left: 10px;
+        
+    }
+    .shopping-container,.Beauty-items-container{
+        
+    /* background-color: palevioletred; */
+    height:30px;
+    
+    
+   
+
+    /* margin-right: 100px; */
+        
+        
+    }
+    .shop-items,.Beauty-items{
+        background-color: rgb(165, 155, 175);
+        margin-top:50px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        
+        /* margin-right: 30px; */
+        
+    }
+    .item{
+        /* background-color: rgb(222, 188, 188); */
+        border: 0.1px solid rgb(52, 50, 50) ;
+        margin-right: 20px;
+
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-bottom: 12px;
+        padding-top: 12px;
+        border-radius: 10px;
+
+    }
+    .shop-item1{
+        /* background-color: lightsalmon; */
+       /* justify-content: space-between; */
+        /* margin-right: 30px; */
+    }
+    .shop-item2
+    {
+       /* padding:1px 2px 1px 2px; */
+        /* background-color: lightcyan; */
+       
+    }
+    .forth-div{
+        /* background-color: bisque; */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 10px;
+        
+    }
+
+   
+           
+            
+        
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="navbar">
+            <!-- flipkart image -->
+            <div class="flipkartimg">
+                <img src="fkheaderlogo_exploreplus-44005d.svg" style="margin-right: 20px;" >
+               
+            </div>
+            <!-- this is for serach bar-->
+            <div class="searchbar"> 
+                <div><i class="ri-search-line"></i>
+                <input type="text" placeholder="search for the product and brands" style="font-size:large; width:500px; height:30px; border:none;">
+                 </div> 
+            </div>
+            <!--login,cart,seller-->
+            <div class="login-box">
+                <p class="login" style="border-radius: 10px 10px 10px 10px; padding: 10px;"><i class="ri-account-circle-line"></i>Login<i class="ri-arrow-down-s-line"></i></p>
+                <p class="cart" ><i class="ri-shopping-cart-2-line"></i>cart</p>
+                <p class="seller"><i class="ri-store-line"></i>Become a Seller</p>
+                <p><i class="ri-more-2-line"></i></p>
+               
+            </div>
+    
+        </div>
+        
+        <!--2nd div for arranging images-->
+        <div class="container">
+            
+                <div class="item1">
+                    <img src="mobile.webp" alt="image not found" width="64px" height="64px" style="margin-top: 10px; ">
+                    <!-- Mobiles<input type="text" name="Mobiles" style="font-size: small;"> -->
+                    <p style="font-size: medium;">Mobiles</p>
+                </div>
+                    <div class="item2">
+                        <img src="29327f40e9c4d26b.webp" alt="image not found" width="64px" height="60px" style="margin-top: 10px;">
+                        <p>Grocery</p>
+                    </div>
+                        <div>
+                            <img src="appliance1.webp" alt="image not available" width="64px" height="60px">
+                            <p>Appliances</p>
+                        </div>
+                            <div>
+                                <img src="aeroplane.webp" alt="image isn`t available" width="50px" height="60px">
+                                <p>aeroplane</p>
+                            </div>
+                                <div>
+                                    <img src="home.jpg" alt="image not found" width="60px" height="60px"><br><p style="font-size: medium; ">Home&Furniture<i class="ri-arrow-down-s-line"></i></p>
+                                </div>
+                                    <div>
+                                        <img src="fashion.webp" alt="image isnt available" width="50px" height="60px">
+                                        <p>Fashion<i class="ri-arrow-down-s-line"></i></p>
+                                    </div>
+                                        <div>
+                                            <img src="05d708653beff580.webp" alt="image not found" width="60px" height="60px">
+                                            <p>Two wheelers<i class="ri-arrow-down-s-line"></i></p>
+                                        </div>
+                                            <div>
+                                                <img src="dff3f7adcf3a90c6 (1).webp" alt="image not found" width="60px" height="60px">
+                                                <p>Beauty&Products<i class="ri-arrow-down-s-line"></i></p>
+                                            </div>
+                
+        </div>
+
+        <div class="third-div">
+            <div class="shopping-container"><p style="font-size:larger;">Best of Electronics</p></div>
+            <div class="shop-items">
+                <div class="shop-item1 item"><img src="image.png" alt="image not found"  width="200px" height="200px"><p style="padding: 10px 10px; ">Boat SmartWatches</p></div>
+                <div class="shop-item2 item"><img src="Screenshot 2024-09-18 111106.png" alt="image not found" width="200px" height="200px"><p style="padding: 10px 10px;">Best Smartphone speak...</p></div>
+                <div class="shop-item3 item"><img src="Screenshot 2024-09-18 111121.png" alt="image not found" width="200px" height="200px"><p style="padding: 10px 10px;">SmartWatches</p></div>
+                <div class="shop-item4 item"><img src="Screenshot 2024-09-18 111132.png" alt="image not found" width="200px" height="200px"><p style="padding: 10px 10px;">Projector</p></div>
+                <div class="shop-item5 item"><img src="Screenshot 2024-09-18 111145.png" alt="image not found" width="200px" height="200px"><p style="padding: 10px 10px;">System</p></div>
+                <div class="shop-item6 item"><img src="fashion.webp" alt="image not found" width="200px" height="200px"><p style="padding: 10px 10px 10px 10px;">Fashion</p></div>
+
+
+
+
+            </div>
+                
+        
+        </div><br>
+
+        <div class="forth-div">
+            <div class="Beauty-items-container" ><p style="font-size: larger;">Beauty,Toys and more</p></div>
+            <div class="Beauty-items" style="margin-right: 35px;">
+                <div class="Beauty-item1 item"><img src="image.png" alt="image not found"  width="200px" height="200px"><p style="padding: 10px 10px; ">Boat SmartWatches</p></div>
+                <div class="Beauty-item2 item"><img src="Screenshot 2024-09-18 111106.png" alt="image not found" width="200px" height="200px"><p style="padding: 10px 10px;">Best Smartphone speak...</p></div>
+                <div class="Beauty-item3 item"><img src="Screenshot 2024-09-18 111121.png" alt="image not found" width="200px" height="200px"><p style="padding: 10px 10px;">SmartWatches</p></div>
+                <div class="Beauty-item4 item"><img src="Screenshot 2024-09-18 111132.png" alt="image not found" width="200px" height="200px"><p style="padding: 10px 10px;">Projector</p></div>
+                <div class="Beauty-item5 item"><img src="Screenshot 2024-09-18 111145.png" alt="image not found" width="200px" height="200px"><p style="padding: 10px 10px;">System</p></div>
+                <div class="Beauty-item6 item"><img src="fashion.webp" alt="image not found" width="200px" height="200px"><p style="padding: 10px 10px 10px 10px;">Fashion</p></div>
+
+            </div>
+
+
+        </div>
+
+        
+    </div>
+
+   
+    
+</body>
+</html>
